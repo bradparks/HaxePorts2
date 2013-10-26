@@ -1,0 +1,18 @@
+-main ApplicationMain 
+-D nme_install_tool
+-cp .
+-cp ../src
+-lib nme
+-D haxe3
+-D haxe-boot
+-D fdb
+-D network-sandbox
+-debug
+--remap flash:nme
+--times
+--flash-strict
+-D web
+-swf-version 11.4
+-swf9 bin/flash/bin/XRopeVMultiLineExample.swf
+-swf-header 800:600:30:FFFFFF
+-cp bin/flash/haxe
